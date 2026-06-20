@@ -1,0 +1,185 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css">
+  </head>
+<body>
+ 
+  <!-- NAV -->
+  <nav>
+    <a class="nav-logo" href="#"><span>CLOUD</span></a>
+    <ul class="nav-links">
+      <li><a href="#team">Team</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+ 
+  <!-- HERO -->
+  <section id="hero">
+    <p class="hero-desc">University Poly-Tech Malaysia</p>
+    <h1>CLOUD <span style="color:var(--teal)">COMPUTING</span></h1>
+    <div class="typed-line"><span id="typed"></span><span class="cursor"></span></div>
+    <p class="hero-desc">
+      Cloud computing enables users to access computing resources and services over the internet.
+      Cloud computing plays a vital role in modern IT infrastructure and digital transformation.
+    </p>
+    <div class="btn-group">
+      <a class="btn btn-primary" href="#projects">View Projects</a>
+      <a class="btn btn-outline" href="#contact">Get In Touch</a>
+    </div>
+  </section>
+ 
+  <!-- ABOUT -->
+<section id="team">
+  <p class="section-label">01. TEAM MEMBERS</p>
+  <h2>Team Members</h2>
+  <div class="team-container">
+
+    <div class="team-card">
+      <img src="PIC1.jpeg" alt="Member 1">
+      <div class="card-info">
+        <h3>AHMAD ZAKWAN BIN MUHAMMAD HADI</h3>
+        <p>Designed the Website</p>
+      </div>
+    </div>
+
+    <div class="team-card">
+      <img src="PIC3.jpeg" alt="Member 2">
+      <div class="card-info">
+        <h3>MUHAMMAD AFIQ NAJMUDEEN BIN RAMLI</h3>
+        <p>Managed Netify Deployment</p>
+      </div>
+    </div>
+
+    <div class="team-card">
+      <img src="PIC2.jpeg" alt="Member 3">
+      <div class="card-info">
+        <h3>AKMAL FARHAN BIN HAMIZAN</h3>
+        <p>Testing the Functional</p>
+      </div>
+    </div>
+
+    <div class="team-card">
+      <img src="PIC.jpg" alt="Member 4">
+      <div class="card-info">
+        <h3>HAZEEQ RAYYAN BIN HASLAH</h3>
+        <p>Develop HTML</p>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+ 
+  <!-- SKILLS -->
+  <section id="skills">
+    <p class="section-label">02. SKILLS LEARNING</p>
+    <h2>What We Learn About Cloud Computing</h2>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <h3><span class="skill-icon">⚙️</span> Service Models</h3>
+        <div class="skill-tags">
+          <span class="tag">IaaS</span><span class="tag">PaaS</span>
+          <span class="tag">SaaS</span>
+        </div>
+      </div>
+      <div class="skill-card">
+        <h3><span class="skill-icon">☁️</span> Fundamentals </h3>
+        <div class="skill-tags">
+          <span class="tag">Cloud Computing</span><span class="tag">Virtualization</span>
+          <span class="tag">Cloud Storage</span><span class="tag">Networking</span>
+        </div>
+      </div>
+      <div class="skill-card">
+        <h3><span class="skill-icon">🏢</span> Deployment Models </h3>
+        <div class="skill-tags">
+          <span class="tag">Public Cloud</span><span class="tag">Private Cloud</span>
+          <span class="tag">Hybrid Cloud</span>
+        </div>
+      </div>
+      <div class="skill-card">
+        <h3><span class="skill-icon">🔒</span> Security & Platforms </h3>
+        <div class="skill-tags">
+          <span class="tag">Cloud Security</span><span class="tag">Scalability</span>
+          <span class="tag">AWS</span><span class="tag">Linux</span>
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+  <!-- PROJECTS -->
+  <section id="projects">
+    <p class="section-label">03. projects</p>
+    <h2>Project in Cloud Computing</h2>
+    <div class="projects-grid">
+ 
+      <div class="project-card">
+        <div class="project-top">
+          <span class="folder-icon">📁</span>
+          <div class="project-links">
+            <a href="#" title="GitHub">⬡ GitHub</a>
+            <a href="#" title="Live">↗ Live</a>
+          </div>
+        </div>
+        <h3>AWS Cloud Storage System</h3>
+        <p>A cloud-based file storage system that allows users to upload, download, and manage files securely using AWS services. The system ensures data availability, scalability, and secure access control.</p>
+        <span class="project-lang"><span class="dot"></span> AWS S3 and Cloud Storage</span>
+      </div>
+ 
+      <div class="project-card">
+        <div class="project-top">
+          <span class="folder-icon">📁</span>
+          <div class="project-links">
+            <a href="#" title="GitHub">⬡ GitHub</a>
+            <a href="#" title="Live">↗ Live</a>
+          </div>
+        </div>
+        <h3>Cloud-Based Student Management System</h3>
+        <p>A web application hosted on the cloud that enables administrators to manage student records, registrations, and academic information from anywhere through an internet connection.</p>
+        <span class="project-lang"><span class="dot" style="background:var(--amber)"></span> MySQL</span>
+      </div>
+ 
+      <div class="project-card">
+        <div class="project-top">
+          <span class="folder-icon">📁</span>
+          <div class="project-links">
+            <a href="#" title="GitHub">⬡ GitHub</a>
+            <a href="#" title="Live">↗ Live</a>
+          </div>
+        </div>
+        <h3>Cloud Backup & Recovery Solution</h3>
+        <p>A cloud-based backup system that automatically stores important data and provides recovery options in case of data loss, hardware failure, or cyber incidents.</p>
+        <span class="project-lang"><span class="dot" style="background:var(--teal)"></span> Cloud Security </span>
+      </div>
+    </div>
+  </section>
+ 
+  <!-- CONTACT -->
+  <section id="contact">
+    <p class="section-label">04. contact</p>
+    <h2>Get In Touch</h2>
+    <p>Thank you for visiting our website. If you have any questions, feedback, or opportunities for collaboration, please do not hesitate to get in touch. — my inbox is always open.</p>
+    <a class="btn btn-primary" href="mailto:jeeq@yahui.com" style="display:inline-flex; margin-bottom:2rem">
+      ✉️ Say Hello
+    </a>
+    <div class="social-links">
+      <a href="#">GitHub</a>
+      <a href="#">Vercel</a>
+      <a href="#">Netify</a>
+    </div>
+  </section>
+ 
+  <!-- FOOTER -->
+  <footer>
+    Built with <span>♥</span> and VS Code &nbsp;·&nbsp; © 2026 Hazeeq
+  </footer>
+
+ <script src="js/javascript.js"></script>
+</body>
+</html>
+ 
